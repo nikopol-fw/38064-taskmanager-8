@@ -97,5 +97,6 @@ cardsList.forEach((item, ind) => {
   cardsFragment.appendChild(card);
 });
 
+
 const taskBoard = document.querySelector(`.board__tasks`);
 taskBoard.appendChild(cardsFragment);
